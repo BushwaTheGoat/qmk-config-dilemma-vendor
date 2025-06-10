@@ -18,7 +18,7 @@ jobs:
           keyboard: dztech/dz65rgb/v3
           keymap: default
           controller: helios
-          local-keymap-path: keymaps/default
+          local-keymap-path: meetlab/kafkasplit
           output-dir: qmk-firmware-dilemma
       - uses: actions/upload-artifact@v4
         with:
