@@ -62,6 +62,9 @@
 #define RGBLIGHT_HUE_STEP    8    // Hue steps for cycling
 #define RGBLIGHT_SAT_STEP    8    // Saturation steps
 #define RGBLIGHT_VAL_STEP    8    // Value (brightness) steps
+#define RGBLED_ENABLE         // RGB underglow
+#define RGBLED_NUM            20  // Number of LEDs in the underglow strip
+#define RGBLED_PIN            15  // GPIO pin for underglow
 
 // Enable RGB effects
 #define RGBLIGHT_EFFECT_BREATHING
