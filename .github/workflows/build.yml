@@ -17,7 +17,6 @@ jobs:
         with:
           keyboard: meetlab/kafkasplit
           keymap: default
-          controller: helios
           local-keymap-path: keymaps/default
           output-dir: qmk-firmware-dilemma
       - uses: actions/upload-artifact@v4
