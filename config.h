@@ -63,7 +63,7 @@
 #define RGBLIGHT_SAT_STEP    8    // Saturation steps
 #define RGBLIGHT_VAL_STEP    8    // Value (brightness) steps
 #define RGBLED_ENABLE         // RGB underglow
-#define RGBLED_NUM            20  // Number of LEDs in the underglow strip
+#define RGBLED_NUM            47  // 27 keys + 20 underglow LEDs
 #define RGBLED_PIN            15  // GPIO pin for underglow
 
 // Enable RGB effects
