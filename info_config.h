@@ -6,8 +6,8 @@
 
 // Pin definitions for the matrix rows and columns
 // Replace STM32-specific pins with RP2040 GPIOs based on your config.json
-#define MATRIX_ROW_PINS { GP4, GP6, GP12, GP18, GP17 }
-#define MATRIX_COL_PINS { GP10, GP8, GP7, GP5, GP13, GP9 }
+#define MATRIX_ROW_PINS { GP0, GP1, GP2, GP3, GP4 }
+#define MATRIX_COL_PINS { GP5, GP6, GP7, GP8, GP9, GP10, GP11, GP12, GP13, GP14, GP15, GP16, GP17, GP18, GP19 }
 
 // Define the number of rows and columns in your matrix (adjust as necessary)
 #define MATRIX_ROWS 5
