@@ -16,7 +16,7 @@ jobs:
       - uses: d3adb5/build-qmk-fw@v1
         with:
           keyboard: dztech/dz65rgb/v3
-          keymap: keymap
+          keymap: default
           controller: helios
           local-keymap-path: keymaps/default
           output-dir: qmk-firmware-dilemma
