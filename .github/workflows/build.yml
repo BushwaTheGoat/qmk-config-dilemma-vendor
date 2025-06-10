@@ -24,12 +24,12 @@ jobs:
           name: built-images
           path: qmk-firmware-dilemma
 
-  keymap_images:
-    needs: build
-    permissions:
-      contents: write
-    uses: ./.github/workflows/draw_keymaps.yaml
-    with:
-      artifact_name: "keymap_layouts"
-#      parse_args: "charybdis: '-b keymap-drawer/charybdis.yaml'"
-      config_path: "keymap-drawer/config.yaml"
+#  keymap_images:
+#    needs: build
+#    permissions:
+#      contents: write
+#    uses: ./.github/workflows/draw_keymaps.yaml
+#    with:
+#      artifact_name: "keymap_layouts"
+##      parse_args: "charybdis: '-b keymap-drawer/charybdis.yaml'"
+#      config_path: "keymap-drawer/config.yaml"
