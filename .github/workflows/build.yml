@@ -16,14 +16,14 @@ jobs:
       - uses: d3adb5/build-qmk-fw@v1
         with:
           keyboard: dztech/dz65rgb/v3
-          keymap: my-keymap
+          keymap: keymap
           controller: helios
-          local-keymap-path: keymaps/my-keymap
-          output-dir: qmk-firmware-to-be-flashed
+          local-keymap-path: keymaps/default
+          output-dir: qmk-firmware-dilemma
       - uses: actions/upload-artifact@v4
         with:
           name: built-images
-          path: qmk-firmware-to-be-flashed
+          path: qmk-firmware-dilemma
 
   keymap_images:
     needs: build
@@ -34,4 +34,3 @@ jobs:
       artifact_name: "keymap_layouts"
 #      parse_args: "charybdis: '-b keymap-drawer/charybdis.yaml'"
       config_path: "keymap-drawer/config.yaml"
-      
