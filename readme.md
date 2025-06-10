@@ -7,7 +7,7 @@ A 44-key split keyboard with rgb
 * Keyboard Maintainer: https://github.com/LXF-YZP
 * Hardware Supported: https://github.com/LXF-YZP/KafkaSplit
 
-Make example for this keyboard (after setting up your build environment):
+**non-working** Make example for this keyboard (after setting up your build environment):
     
     make meetlab/kafkasplit:default
     
