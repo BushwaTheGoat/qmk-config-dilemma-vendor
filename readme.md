@@ -1,30 +1,36 @@
-# kafkasplit - PCB
+# aliexpress dilemma
 
-![kafkasplit](https://i.imgur.com/fqxZGeHh.jpg)
+**WIP**
 
-A 44-key split keyboard with rgb
+**NON WORKING firmware**
 
-* Keyboard Maintainer: https://github.com/LXF-YZP
-* Hardware Supported: https://github.com/LXF-YZP/KafkaSplit
-
-**non-working** Make example for this keyboard (after setting up your build environment):
-    
-    make meetlab/kafkasplit:default
-    
-Flashing example for this keyboard:
-
-    make meetlab/kafkasplit:default:flash
-    
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
+Keyboard firmware for hardware inspired by [Bastardkb Dilemma Max](https://bastardkb.com/product/dilemma-max-prebuilt-preorder/) bought on aliexpress.
 
 ## Bootloader
 
-Enter the bootloader in 3 ways:
+Enter the bootloader:
+* **Physical reset button**: press the button south of USB2 while plugging in the keyboard
 
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+
+## Modifications from vendor
+### info.json
+Moved /keyboard.json to /keymaps/default/info.json as the file content is compatible to the definition of a [info.json](https://docs.qmk.fm/reference_info_json) file.
+
+### keymap-drawer
+boilerplate for keymap diagram generation (not functional yet and commented out in build.yml)
+
+### .github/workflows
+workflows for building firmware on github. uses **meetlab/kafkasplit** as base, as it was documented in vendor readme.
+
 
 ## Keymaps & Layers
 
 ![keymap images](keymap-drawer/charybdis.svg)
+
+
+## Hardware / Photos
+![PCB Front](data/images/pcb-front.jpg?raw=true "PCB Front")
+
+![PCB Back](data/images/pcb-back.jpg?raw=true "PCB Back")
+
+![with Cover](data/images/built.jpg?raw=true "with Cover")
