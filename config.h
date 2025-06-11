@@ -57,15 +57,15 @@
 #define POINTING_DEVICE_ROTATION_90
 
 // Enable RGB underglow
-#define RGBLIGHT_ENABLE      // Enable RGB underglow
-#define RGBLIGHT_LIMIT_VAL   255  // Maximum brightness
-#define RGBLIGHT_HUE_STEP    8    // Hue steps for cycling
-#define RGBLIGHT_SAT_STEP    8    // Saturation steps
-#define RGBLIGHT_VAL_STEP    8    // Value (brightness) steps
-#define RGBLIGHT_LED_COUNT   47   // 27 keys + 20 underglow LEDs
+//#define RGBLIGHT_ENABLE      // Enable RGB underglow
+//#define RGBLIGHT_LIMIT_VAL   255  // Maximum brightness
+//#define RGBLIGHT_HUE_STEP    8    // Hue steps for cycling
+//#define RGBLIGHT_SAT_STEP    8    // Saturation steps
+//#define RGBLIGHT_VAL_STEP    8    // Value (brightness) steps
+//#define RGBLIGHT_LED_COUNT   47   // 27 keys + 20 underglow LEDs
 
 // Enable RGB effects
-#define RGBLIGHT_EFFECT_BREATHING
-#define RGBLIGHT_EFFECT_RAINBOW_MOOD
-#define RGBLIGHT_EFFECT_STATIC_GRADIENT
-#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+//#define RGBLIGHT_EFFECT_BREATHING
+//#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+//#define RGBLIGHT_EFFECT_STATIC_GRADIENT
+//#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
