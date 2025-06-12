@@ -1,10 +1,11 @@
 # aliexpress dilemma
 
-**WIP**
-
-**NON WORKING firmware**
-
 Keyboard firmware for hardware inspired by [Bastardkb Dilemma Max](https://bastardkb.com/product/dilemma-max-prebuilt-preorder/) bought on aliexpress.
+
+## source currently creates a NON WORKING firmware
+
+use prebuilt [meetlab_dilemma_default.uf2](data/data-ali-vendor/meetlab_dilemma_default.uf2) provided by vendor for now.
+
 
 ## Bootloader
 
